@@ -1,0 +1,1 @@
+interface: 8 vertices, 9 edges; composition: 23 vertices, 54 edges; adjacency matches proof
