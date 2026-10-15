@@ -1,0 +1,56 @@
+{
+  "local_assignments": 512,
+  "local_extension_counts": {
+    "000": 1,
+    "001": 1,
+    "010": 0,
+    "011": 1,
+    "100": 1,
+    "101": 0,
+    "110": 1,
+    "111": 1
+  },
+  "invalid_strings": 5,
+  "instances": [
+    {
+      "name": "singleton",
+      "source_yes": false,
+      "vertices": 6,
+      "edges": 5,
+      "recoveries": 0,
+      "bad_projection": "special case"
+    },
+    {
+      "name": "edge",
+      "source_yes": true,
+      "vertices": 3,
+      "edges": 2,
+      "recoveries": 2,
+      "bad_projection": "special case"
+    },
+    {
+      "name": "two_cliques_bridge",
+      "source_yes": true,
+      "vertices": 198,
+      "edges": 390,
+      "recoveries": 2,
+      "bad_projection": "UNSAT"
+    },
+    {
+      "name": "complete_bipartite",
+      "source_yes": false,
+      "vertices": 288,
+      "edges": 552,
+      "recoveries": 0,
+      "bad_projection": "UNSAT"
+    },
+    {
+      "name": "degree_four_tree",
+      "source_yes": true,
+      "vertices": 87,
+      "edges": 186,
+      "recoveries": 2,
+      "bad_projection": "UNSAT"
+    }
+  ]
+}
