@@ -1,0 +1,14 @@
+{
+  "question": "Q022",
+  "build": "passed",
+  "cache": 0,
+  "axiom_audit": "passed: no sorryAx in Goal",
+  "starting_copy": "byte-identical",
+  "metadata_required_fields": "passed",
+  "comparator": "blocked: Linux bubblewrap unavailable",
+  "comparator_exit": 1,
+  "prerequisite_test": "passed; Linux verdict tests skipped",
+  "toolchain": "leanprover/lean4:v4.35.0",
+  "challenge_sha256": "68a2253eb257e3e602a945eaa6b518c9904bbd47f78bfb78c433b3ecfd139bd9",
+  "verified_at_utc": "2026-10-15T07:16:22.368490+00:00"
+}

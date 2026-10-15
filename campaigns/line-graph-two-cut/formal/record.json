@@ -1,0 +1,7 @@
+{
+  "id": "Q022",
+  "source_definition": "The source is a connected simple graph of maximum degree at most four. Its outputs are nontrivial vertex bipartitions with at most one opposite neighbor per vertex, or NO-SOLUTION.",
+  "target_definition": "The source is a connected simple graph of maximum degree four and seeks a nontrivial cut of crossing degree at most one. The target is a connected line graph and seeks a nontrivial cut of crossing degree at most two.",
+  "required_result": "Construct deterministic polynomial-time maps F and G: F sends every legal source instance to a legal target instance, and G(x,y) is a valid source output for every valid output y of F(x). Preserve the stated threshold, domain and promises. The requested complexity conclusion is NP-hardness for the stated target problem.",
+  "equation": ""
+}
